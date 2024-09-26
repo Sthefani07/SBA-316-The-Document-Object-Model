@@ -1,3 +1,4 @@
+/* Nav Bar */
 h1{
     text-align: center;
     color: rgb(85, 82, 84);
@@ -19,6 +20,10 @@ h1{
     overflow: hidden;
     font-size: 2rem;
 }
+
+
+/* Calculator */
+
 body{
     margin: 0;
     display: flexbox;
@@ -55,7 +60,7 @@ body{
     padding: 25px;
 }
 
-button{
+.btn, .operator-btn {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -66,7 +71,36 @@ button{
     font-weight: bold;
 }
 
-button:hover{
+
+/* Love Calculator */
+.loveCalculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 211, 229);
+    border-radius: 15px;
+    max-width: 900px;
+
+    overflow: hidden;
+    margin: 25px;
+    text-align: center;
+}
+
+#lovename{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#loveBtn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(212, 130, 201);
+}
+
+
+
+button:hover, #loveBtn:hover{
     background-color: rgb(194, 106, 178);
 }
 .operator-btn{
