@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 const display = document.getElementById("display");
-const buttons = document.querySelectorAll(".btn, .operator-btn");
+const buttons = document.querySelectorAll(".btn, .operator-btn, .clearBtn1");
 const memory = document.getElementById("memory");
 
 buttons.forEach(button => {
@@ -23,19 +23,12 @@ buttons.forEach(button => {
 });
 })
 
-// function storememory(value){
-//     const memoryitem = document.createElement("p");
-//     memoryitem.textContent = `Memory: ${value}`;
-//     memory.prepend(memoryitem);
-// }
-// if (value === "M+"){
-//     storememory(display.value);
-// }
 
 
-// Love Calculator
 
-document.getElementById("loveBtn2").addEventListener("click", function(){
+const loveBtn = document.getElementById("loveBtn2");
+ if (loveBtn){
+    loveBtn.addEventListener("click", function(){
     const yourName= document.getElementById("yourName").value;
     const partnerName = document.getElementById("partnerName").value;
 
@@ -43,17 +36,28 @@ document.getElementById("loveBtn2").addEventListener("click", function(){
         document.getElementById("result").textContent = `Please enter both names.`;
         return;
     }
-
+    
+ 
 
     // Creating a random porcentage
     const lovePercentage = Math.floor(Math.random() * 100) + 1;
 
     document.getElementById("result").textContent = `${yourName} and ${partnerName} are ${lovePercentage}% compatible!`
 });
+}
 
-    document.getElementById("clearBtn1").addEventListener("click", function(){
+
+
+// CLear button for the love calculater
+
+const loveBtn1 = document.getElementById("loveBtn1");
+if (loveBtn1){
+    loveBtn1.addEventListener("click", function(){
         document.getElementById("yourName").value = '';
         document.getElementById("partnerName").value = '';
         document.getElementById("result").textContent = '';
 
-});
+
+    
+ });
+}
