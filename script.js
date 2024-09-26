@@ -31,3 +31,29 @@ buttons.forEach(button => {
 // if (value === "M+"){
 //     storememory(display.value);
 // }
+
+
+// Love Calculator
+
+document.getElementById("loveBtn2").addEventListener("click", function(){
+    const yourName= document.getElementById("yourName").value;
+    const partnerName = document.getElementById("partnerName").value;
+
+    if(yourName === '' || partnerName === ""){
+        document.getElementById("result").textContent = `Please enter both names.`;
+        return;
+    }
+
+
+    // Creating a random porcentage
+    const lovePercentage = Math.floor(Math.random() * 100) + 1;
+
+    document.getElementById("result").textContent = `${yourName} and ${partnerName} are ${lovePercentage}% compatible!`
+});
+
+    document.getElementById("clearBtn1").addEventListener("click", function(){
+        document.getElementById("yourName").value = '';
+        document.getElementById("partnerName").value = '';
+        document.getElementById("result").textContent = '';
+
+});

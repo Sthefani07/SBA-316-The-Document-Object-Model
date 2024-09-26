@@ -81,6 +81,7 @@ body{
 
     overflow: hidden;
     margin: 25px;
+    margin-bottom: 200px;
     text-align: center;
 }
 
@@ -89,7 +90,7 @@ body{
     font-size: 1rem;
 }
 
-#loveBtn{
+#loveBtn1, #loveBtn2{
     padding: 10px 20px;
     margin: 10px;
     border-radius: 5px;
@@ -100,7 +101,7 @@ body{
 
 
 
-button:hover, #loveBtn:hover{
+button:hover, #loveBtn1:hover, #loveBtn2:hover{
     background-color: rgb(194, 106, 178);
 }
 .operator-btn{
