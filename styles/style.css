@@ -1,6 +1,27 @@
+h1{
+    text-align: center;
+    color: rgb(85, 82, 84);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.navBar a{
+    color: white;
+    padding: 35px;
+    display: block;
+    text-align: center;
+}
+.navBar ul{
+     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(164, 161, 164); 
+    overflow: hidden;
+    font-size: 2rem;
+}
 body{
     margin: 0;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
     height: 100svh;
@@ -11,6 +32,7 @@ body{
     border-radius: 20px;
     max-width: 500px;
     overflow: hidden;
+    margin: 25px;
     
 }
 
@@ -49,4 +71,8 @@ button:hover{
 }
 .operator-btn{
     background-color: rgb(105, 104, 105);
+}
+
+.navBar li{
+    float: left;
 }
