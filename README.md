@@ -23,7 +23,7 @@ Since topic and content are secondary to functionality for this assessment, we h
 
 
 | Requirement                                                        | Weight |
-|----------------------------------------------------------------------------------------------------------------------
+
 |Cache at least one element using selectElementById.                   | 5% |
 |Cache at least one element using querySelector or querySelectorAll.   | 5% |
 |Use the parent-child-sibling relationship to navigate between elements at least once (firstChild, lastChild, parentNode, nextElementSibling etc.).                                                                 | 5% |            
@@ -36,7 +36,7 @@ Since topic and content are secondary to functionality for this assessment, we h
 |Modify at least one attribute of an element in response to user interaction. | 3% |
 |Register at least two different event listeners and create the associated event handler functions.   | 10% |
 |Use at least two Browser Object Model (BOM) properties or methods.    | 3% |
-|Include at least one form and/or input with HTML attribute validation. | 5%
+|Include at least one form and/or input with HTML attribute validation. | 5% |
 |Include at least one form and/or input with DOM event-based validation. (This can be the same form or input as the one above, but should include event-based validation in addition to the HTML attribute validation.)    | 5% |
 |Ensure that the program runs without errors (comment out things that do not work, and explain your blockers - you can still receive partial credit).                                                               |  10% |
 |Commit frequently to the git repository.                              | 5% |
