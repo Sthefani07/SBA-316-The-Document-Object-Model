@@ -1,7 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
+//const body = document.body;
+const newEl = document.createElement("h1");
+newEl.innerHTML = "<strong>Calculate Anything today!!!</strong>"
+document.body.prepend(newEl);
+
+
+
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll(".btn, .operator-btn, .clearBtn1");
-const memory = document.getElementById("memory");
+
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
