@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-//const body = document.body;
+alert("Welcome to the Calculator page!")
 const newEl = document.createElement("h1");
-newEl.innerHTML = "<strong>Calculate Anything today!!!</strong>"
+newEl.innerHTML = "Calculate Anything"
 document.body.prepend(newEl);
 
 
