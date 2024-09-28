@@ -6,6 +6,17 @@ document.body.prepend(newEl);
 
 
 
+
+ //Nav bar _____
+const element = document.getElementById("loveBtn1");
+const firstChild = element.nextElementSibling;
+firstChild.style.backgroundColor = "rgba(109, 10, 92, 0.75)";
+
+
+
+
+
+// Clear button for the regular calculator
 const display = document.getElementById("display");
 const buttons = document.querySelectorAll(".btn, .operator-btn, .clearBtn1");
 
@@ -30,6 +41,13 @@ buttons.forEach(button => {
 });
 })
 
+//Button click
+
+
+
+
+
+
 
 
 
@@ -39,7 +57,7 @@ const loveBtn = document.getElementById("loveBtn2");
     const yourName= document.getElementById("yourName").value;
     const partnerName = document.getElementById("partnerName").value;
 
-    if(yourName === '' || partnerName === ""){
+    if(yourName === "" || partnerName === ""){
         document.getElementById("result").textContent = `Please enter both names.`;
         return;
     }
@@ -55,7 +73,7 @@ const loveBtn = document.getElementById("loveBtn2");
 
 
 
-// CLear button for the love calculater
+// CLear button for the love calculator
 
 const loveBtn1 = document.getElementById("loveBtn1");
 if (loveBtn1){

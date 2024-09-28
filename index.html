@@ -12,19 +12,19 @@
 <div>
     <h1></h1>
 </div>
-<nav class="navBar">
+<nav id="navBar">
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-         <li><a href="">Calculator</a></li>
-          <li><a href="">Contact</a></li>
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+         <li><a>Calculator</a></li>
+          <li><a>Contact</a></li>
     </ul>
 </nav>
 
 
 <!-- Calculator -->
     <div id="calculator">
-        <input id="display" type="text" maxlength="10" disabled>
+      <input id="display" type="text" maxlength="6" disabled>
         <div id="buttons" type="text" maxlength="10" >
             <!-- Numbers -->
               <button class="operator-btn" id="add">+</button>
@@ -50,19 +50,22 @@
 
     <!-- Love Calculator -->
      <div class="loveCalculator">
-        <form action="">
+        <!-- <form action=""> -->
+        
         <h1>Love Calculator</h1>
         <p>Are you in love and want to know if it could be aa good match? Calculate your chances of a successful relationship</p>
-
+        <form action="">
         <input id="yourName" type="text" required pattern="^[a-zA-Z]*$" maxlength="8" minlength="2"  placeholder="Your name">
         <input id="partnerName" type="text" required placeholder="Your dream partner's name">
-        <br>
+        </form>  <br>
+
 
         <button id="loveBtn1">Clear</button>
         <button id="loveBtn2">Calculate Love!</button>
 
         <div id="result"></div>
-    </form>
+    <!-- </form> -->
+    
      </div>
 
 
